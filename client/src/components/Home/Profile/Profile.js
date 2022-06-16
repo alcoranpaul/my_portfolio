@@ -51,8 +51,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building applications with front
-                and back end operations
+                Pursuing modern techniques and technologies in application development
               </span>
             </span>
           </div>

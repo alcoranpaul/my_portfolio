@@ -1,7 +1,5 @@
 .main-container {
-  min-height: 100vh;
-  /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-
+  min-height: 60vh;
   margin: 100px 0 -450px 0;
 }
 .central-form {
@@ -32,11 +30,11 @@
   margin-bottom: 20px;
 }
 
-.img-back h4 {
+.img-back h3 {
   letter-spacing: 0.3rem;
-  font-weight: 400;
+  font-weight: 700;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   opacity: 0.5;
 }
 
@@ -45,6 +43,19 @@
   opacity: 0.5;
 }
 
+.details-container {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  color: var(--dark-orange);
+  font-weight: bold;
+}
+
+.details-container .data {
+  font-weight: 200;
+  padding-left: 10px;
+  color: white;
+}
 .central-form form {
   width: auto;
   box-shadow: 0 0 2px 1px white;
@@ -59,74 +70,8 @@
   box-shadow: 0 0px 20px -2px #1f2235;
   border-radius: 12px;
 }
-
-form p {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #ff5823;
-  letter-spacing: 0.1rem;
-  font-family: "Poppins Bold";
-}
-
-form label {
-  margin-bottom: 5px;
-  color: #111;
-  letter-spacing: 0.2rem;
-}
-
-form input,
-textarea {
-  width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0);
-  outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  margin-bottom: 22px;
-  transition: 0.3s;
-  border-radius: 10px;
-}
-
-textarea:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: #fff;
-}
-form input:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: #fff;
-}
-
-form button {
-  margin-top: 15px;
-  padding: 5px;
-  outline: none;
-  width: 900px;
-  color: rgb(230, 227, 227);
-  border: 2px solid #ff5823;
-  font-size: 12px;
-  border-radius: 19px;
-  background-color: #1f2235;
-  font-size: 18px;
-  width: 160px;
-  align-items: center;
-  justify-content: center;
-}
-
-form button:hover {
-  background-color: #1f2235;
-  transition: all ease 1s;
-  border: 2px solid #1f2235;
-}
-
-button .load {
-  width: 100%;
-}
-
-button .load img {
-  width: 60px;
-  color: green;
-}
 .col i {
+  font-size: 20px;
   padding: 7px;
   color: #fff;
 }
@@ -147,10 +92,6 @@ button .load img {
     flex: 1;
     align-self: center;
     margin-right: 20px;
-  }
-
-  form {
-    flex: 0.9;
   }
 }
 @media screen and (max-width: 414px) {

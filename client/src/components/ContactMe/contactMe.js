@@ -97,45 +97,22 @@ const ContactMe = (props) => {
                     <a href="https://steamcommunity.com/profiles/76561198200509718/">
                         <i className="fa fa-steam-square"></i>
                     </a>
+
                 </div>
                 <div className="back-form">
                     <div className="img-back">
-                        <h4>Send your Email Here!</h4>
-                        <img src={imgBack} alt="Not found" />
-                    </div>
-                    <form onSubmit={submitForm}>
-                        <p>{banner}</p>
-                        <label htmlFor="name">Name</label>
-                        <input
-                            type="text"
-                            onChange={handleName}
-                            value={name}
-                        />
-
-                        <label htmlFor="email">Email</label>
-                        <input
-                            type="email"
-                            onChange={handleEmail}
-                            value={email}
-                        />
-
-                        <label htmlFor="message">Message</label>
-                        <textarea
-                            type="text"
-                            onChange={handleMessage}
-                            value={message}
-                        />
-
-                        <div className="send-btn">
-                            <button type="submit">
-                                Send
-                                <i className="fa fa-paper-plane" />
-                                {bool ? (<b className="load">
-                                    <img src={load1} alt="Not responsing" />
-                                </b>) : ("")}
-                            </button>
+                        <h3>Send your inquires to my inbox using the following details!</h3>
+                        <div className="details-container">
+                            <ul>
+                                <li>Email:
+                                    <span className="data">poulreyes74@yahoo.com</span>
+                                </li>
+                                <li>Mobile:
+                                    <span className="data">(431) 337-7373</span>
+                                </li>
+                            </ul>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
             <Footer />
