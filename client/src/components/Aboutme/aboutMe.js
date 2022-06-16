@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/animations";
@@ -41,7 +41,12 @@ export default function AboutMe(props) {
       )
     );
   };
-
+  useEffect(() => {
+    return () => {
+      /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+      fadeInSubscription.unsubscribe();
+    };
+  }, [fadeInSubscription]);
   return (
     <div
       className="about-me-container screen-container fade-in"

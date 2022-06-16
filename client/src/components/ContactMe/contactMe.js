@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -47,11 +47,7 @@ const ContactMe = (props) => {
             };
             setBool(true);
             const res = await axios.post(`/contact`, data);
-            if (
-                name.length === 0 ||
-                email.length === 0 ||
-                message.length === 0
-            ) {
+            if (name.length === 0 || email.length === 0 || message.length === 0) {
                 setBanner(res.data.msg);
                 toast.error(res.data.msg);
                 setBool(false);
@@ -59,11 +55,21 @@ const ContactMe = (props) => {
                 setBanner(res.data.msg);
                 toast.success(res.data.msg);
                 setBool(false);
+
+                setName("");
+                setEmail("");
+                setMessage("");
             }
         } catch (error) {
             console.log(error);
         }
     };
+    useEffect(() => {
+        return () => {
+            /* UNSUBSCRIBE THE SUBSCRIPTIONS */
+            fadeInSubscription.unsubscribe();
+        };
+    }, [fadeInSubscription]);
     return (
         <div className="main-container fade-in" id={props.id || ""}>
             <ScreenHeading
