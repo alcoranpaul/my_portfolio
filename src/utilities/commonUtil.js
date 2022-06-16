@@ -1,7 +1,7 @@
 import Home from "../components/Home/Home";
 import aboutMe from "../components/Aboutme/aboutMe";
 import resume from "../components/Resume/resume";
-
+import contactMe from "../components/ContactMe/contactMe";
 export const TOTAL_SCREENS = [
   {
     screen_name: "Home",
@@ -14,6 +14,10 @@ export const TOTAL_SCREENS = [
   {
     screen_name: "Resume",
     component: resume,
+  },
+  {
+    screen_name: "ContactMe",
+    component: contactMe,
   },
 ];
 
