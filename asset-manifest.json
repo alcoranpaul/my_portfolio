@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.cdb5f225.css",
-    "main.js": "/my_portfolio/static/js/main.95e4b3ca.js",
+    "main.css": "/my_portfolio/static/css/main.42c95d66.css",
+    "main.js": "/my_portfolio/static/js/main.04571b96.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/stand.jpg": "/my_portfolio/static/media/stand.87232f42de78cdb2364f.jpg",
     "static/media/Poppins-Thin.ttf": "/my_portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -19,12 +19,12 @@
     "static/media/interests.svg": "/my_portfolio/static/media/interests.615847ca055f3e26c52c.svg",
     "static/media/education.svg": "/my_portfolio/static/media/education.9d6f62f29ad592ae23a5.svg",
     "static/media/work-history.svg": "/my_portfolio/static/media/work-history.74bf97b3ea2cde82fc3d.svg",
-    "main.cdb5f225.css.map": "/my_portfolio/static/css/main.cdb5f225.css.map",
-    "main.95e4b3ca.js.map": "/my_portfolio/static/js/main.95e4b3ca.js.map",
+    "main.42c95d66.css.map": "/my_portfolio/static/css/main.42c95d66.css.map",
+    "main.04571b96.js.map": "/my_portfolio/static/js/main.04571b96.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdb5f225.css",
-    "static/js/main.95e4b3ca.js"
+    "static/css/main.42c95d66.css",
+    "static/js/main.04571b96.js"
   ]
 }
