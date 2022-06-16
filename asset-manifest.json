@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.42c95d66.css",
-    "main.js": "/my_portfolio/static/js/main.04571b96.js",
+    "main.css": "/my_portfolio/static/css/main.9bd4a55f.css",
+    "main.js": "/my_portfolio/static/js/main.8c2cc40c.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/stand.jpg": "/my_portfolio/static/media/stand.87232f42de78cdb2364f.jpg",
     "static/media/Poppins-Thin.ttf": "/my_portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -13,18 +13,19 @@
     "static/media/Poppins-ExtraBold.ttf": "/my_portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/profile.jpg": "/my_portfolio/static/media/profile.8f7dc3615244ece35a69.jpg",
     "static/media/mailz.jpeg": "/my_portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/book-svgrepo-com.svg": "/my_portfolio/static/media/book-svgrepo-com.312c89331a38b40d96e7.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/programming-skills.svg": "/my_portfolio/static/media/programming-skills.acee8232824deacaad01.svg",
     "static/media/projects.svg": "/my_portfolio/static/media/projects.670af05f5b108ed93aa1.svg",
     "static/media/interests.svg": "/my_portfolio/static/media/interests.615847ca055f3e26c52c.svg",
     "static/media/education.svg": "/my_portfolio/static/media/education.9d6f62f29ad592ae23a5.svg",
     "static/media/work-history.svg": "/my_portfolio/static/media/work-history.74bf97b3ea2cde82fc3d.svg",
-    "main.42c95d66.css.map": "/my_portfolio/static/css/main.42c95d66.css.map",
-    "main.04571b96.js.map": "/my_portfolio/static/js/main.04571b96.js.map",
+    "main.9bd4a55f.css.map": "/my_portfolio/static/css/main.9bd4a55f.css.map",
+    "main.8c2cc40c.js.map": "/my_portfolio/static/js/main.8c2cc40c.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c95d66.css",
-    "static/js/main.04571b96.js"
+    "static/css/main.9bd4a55f.css",
+    "static/js/main.8c2cc40c.js"
   ]
 }
