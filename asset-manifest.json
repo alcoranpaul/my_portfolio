@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.cdb5f225.css",
+    "main.js": "/my_portfolio/static/js/main.95e4b3ca.js",
+    "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/stand.jpg": "/my_portfolio/static/media/stand.87232f42de78cdb2364f.jpg",
+    "static/media/Poppins-Thin.ttf": "/my_portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/my_portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/my_portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/my_portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/my_portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/my_portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/my_portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/profile.jpg": "/my_portfolio/static/media/profile.8f7dc3615244ece35a69.jpg",
+    "static/media/mailz.jpeg": "/my_portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "index.html": "/my_portfolio/index.html",
+    "static/media/programming-skills.svg": "/my_portfolio/static/media/programming-skills.acee8232824deacaad01.svg",
+    "static/media/projects.svg": "/my_portfolio/static/media/projects.670af05f5b108ed93aa1.svg",
+    "static/media/interests.svg": "/my_portfolio/static/media/interests.615847ca055f3e26c52c.svg",
+    "static/media/education.svg": "/my_portfolio/static/media/education.9d6f62f29ad592ae23a5.svg",
+    "static/media/work-history.svg": "/my_portfolio/static/media/work-history.74bf97b3ea2cde82fc3d.svg",
+    "main.cdb5f225.css.map": "/my_portfolio/static/css/main.cdb5f225.css.map",
+    "main.95e4b3ca.js.map": "/my_portfolio/static/js/main.95e4b3ca.js.map",
+    "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdb5f225.css",
+    "static/js/main.95e4b3ca.js"
+  ]
+}
