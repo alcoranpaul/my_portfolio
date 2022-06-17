@@ -87,7 +87,7 @@ export default function Header() {
           />
         </div>
         <div className="header-logo">
-          <span>PAUL</span>
+          <span>Paul Adrian Alcoran Reyes</span>
         </div>
         <div
           className={

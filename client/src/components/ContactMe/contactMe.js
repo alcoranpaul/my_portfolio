@@ -82,7 +82,11 @@ const ContactMe = (props) => {
                         {" "}
                         <Typical
                             loop={Infinity}
-                            steps={["Get in touch 🤝", 2000]}
+                            steps={["Get in touch 🤝", 2000,
+                                "Message me in facebook ^_^", 4000,
+                                "Check out my Linkedin!! 📜", 4000,
+                                "See my public GitHub projects 🧑‍💻", 5000,
+                                "Add me in steam 🎮", 2000]}
                         />
                     </h2>
                     <a href="https://www.facebook.com/PaulReyes30/">

@@ -56,7 +56,7 @@ const Resume = (props) => {
       logoSrc: "programming-skills.svg",
     },
     { label: "Projects", logoSrc: "projects.svg" },
-    { label: "Interests", logoSrc: "interests.svg" },
+    { label: "Interests", logoSrc: "interests.svg" }
   ];
 
   const programmingSkillsDetails = [
@@ -211,13 +211,14 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Competitive Video Gaming"
-        description="Playing some offline/online games has helped me sharpen my reflexes and attentiveness to small details aswell as it helps me be more cooperative to other players"
+        description="Playing some offline/online games, such as League of Legends, has helped me sharpen my reflexes and attentiveness to small details aswell as it helps me be more cooperative to other players"
       />
       <ResumeHeading
         heading="Robot Building"
         description="I like to challenge myself to learn new technologies and learning the fundametals of the Arduino board has helped me to widen my skills"
       />
     </div>,
+
   ];
 
   const handleCarousal = (index) => {

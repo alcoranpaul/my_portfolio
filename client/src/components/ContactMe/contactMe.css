@@ -71,8 +71,9 @@
   border-radius: 12px;
 }
 .col i {
-  font-size: 20px;
-  padding: 7px;
+  font-size: 28px;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
   color: #fff;
 }
 .col i:hover {
