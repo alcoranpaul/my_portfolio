@@ -273,6 +273,8 @@ const Resume = (props) => {
       fadeInSubscription.unsubscribe();
     };
   }, [fadeInSubscription]);
+
+
   return (
     <div
       className="resume-container screen-container fade-in"

@@ -1,0 +1,14 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0;
+  background: red;
+}
+.projects-parent {
+  max-width: 1000px;
+  width: 70%;
+  /* background: yellow; */
+  height: 500px;
+}

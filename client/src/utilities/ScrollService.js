@@ -21,7 +21,7 @@ export default class ScrollService {
   /* SCROLL TO HIRE ME / CONTACT ME SCREEN */
   scrollToHireMe = () => {
     let contactMeScreen =
-      document.getElementById("ContactMe");
+      document.getElementById("Contact Me");
     if (!contactMeScreen) return;
 
     contactMeScreen.scrollIntoView({ behavior: "smooth" });
