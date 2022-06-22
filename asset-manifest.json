@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.c693f430.css",
-    "main.js": "/my_portfolio/static/js/main.8c2cc40c.js",
+    "main.css": "/my_portfolio/static/css/main.81df6847.css",
+    "main.js": "/my_portfolio/static/js/main.5341920c.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/FPGA.jpg": "/my_portfolio/static/media/FPGA.9c81d02133d16f58fbae.jpg",
     "static/media/stand.jpg": "/my_portfolio/static/media/stand.87232f42de78cdb2364f.jpg",
+    "static/media/PickAndDrop.jpg": "/my_portfolio/static/media/PickAndDrop.f8d545bd27fbf8b945ed.jpg",
     "static/media/Poppins-Thin.ttf": "/my_portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/my_portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/my_portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -13,6 +15,7 @@
     "static/media/Poppins-ExtraBold.ttf": "/my_portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/profile.jpg": "/my_portfolio/static/media/profile.8f7dc3615244ece35a69.jpg",
     "static/media/mailz.jpeg": "/my_portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/TodoList.png": "/my_portfolio/static/media/TodoList.996c8a91d792ae838507.png",
     "static/media/book-svgrepo-com.svg": "/my_portfolio/static/media/book-svgrepo-com.312c89331a38b40d96e7.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/programming-skills.svg": "/my_portfolio/static/media/programming-skills.acee8232824deacaad01.svg",
@@ -20,12 +23,12 @@
     "static/media/interests.svg": "/my_portfolio/static/media/interests.615847ca055f3e26c52c.svg",
     "static/media/education.svg": "/my_portfolio/static/media/education.9d6f62f29ad592ae23a5.svg",
     "static/media/work-history.svg": "/my_portfolio/static/media/work-history.74bf97b3ea2cde82fc3d.svg",
-    "main.c693f430.css.map": "/my_portfolio/static/css/main.c693f430.css.map",
-    "main.8c2cc40c.js.map": "/my_portfolio/static/js/main.8c2cc40c.js.map",
+    "main.81df6847.css.map": "/my_portfolio/static/css/main.81df6847.css.map",
+    "main.5341920c.js.map": "/my_portfolio/static/js/main.5341920c.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c693f430.css",
-    "static/js/main.8c2cc40c.js"
+    "static/css/main.81df6847.css",
+    "static/js/main.5341920c.js"
   ]
 }
