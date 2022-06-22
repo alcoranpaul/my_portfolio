@@ -3,12 +3,53 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 120px 0;
-  background: red;
+  /* height: 50vh; */
+  min-height: 670px;
+  background-color: #fadfa4;
 }
 .projects-parent {
   max-width: 1000px;
   width: 70%;
   /* background: yellow; */
-  height: 500px;
+  height: auto;
+}
+.projects-parent col {
+  flex-wrap: nowrap;
+}
+.project-card {
+  width: 18rem;
+  height: 25rem;
+  transition: 1s ease-out;
+  cursor: default;
+  /* margin: 5px; */
+}
+
+.project-item img {
+  height: 140px;
+  object-fit: fill;
+}
+.project-card:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.project-card ul {
+  font-family: "Poppins Light";
+}
+.project-title {
+  font-family: "Poppins Bold";
+}
+
+.project-description {
+  font-family: "Poppins Regular";
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  border-top: 0.3rem solid;
+}
+
+@media screen and (max-width: 1360px) {
+  .project-item-indiv {
+    flex-wrap: wrap;
+  }
 }

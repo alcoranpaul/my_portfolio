@@ -1,0 +1,32 @@
+.header-contact-container {
+  height: 17.8%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.header-contact-parent {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+}
+.header-contact-parent img {
+  max-width: 100%;
+  height: 130px;
+}
+/* .screen-heading {
+  color: white;
+}
+.screen-sub-heading {
+  color: white;
+}
+.seperator-line {
+  background-color: white;
+} */
+
+@media only screen and (max-width: 1110px) {
+  .header-contact-parent {
+    display: flex;
+    align-items: flex-end;
+  }
+}

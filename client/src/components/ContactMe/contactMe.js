@@ -9,6 +9,7 @@ import load1 from "../../assets/contact/load2.gif";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/animations";
+import HeaderContact from "./HeaderContact/HeaderContact"
 import "./contactMe.css";
 
 const ContactMe = (props) => {
@@ -71,11 +72,14 @@ const ContactMe = (props) => {
         };
     }, [fadeInSubscription]);
     return (
+
         <div className="main-container fade-in" id={props.id || ""}>
+            <HeaderContact />
             <ScreenHeading
                 subHeading={"Lets keep in touch"}
                 title={"Contact Me"}
             />
+
             <div className="central-form">
                 <div className="col">
                     <h2 className="title">

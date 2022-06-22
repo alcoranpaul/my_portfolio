@@ -55,7 +55,7 @@ const Resume = (props) => {
       label: "Programming Skills",
       logoSrc: "programming-skills.svg",
     },
-    { label: "Projects", logoSrc: "projects.svg" },
+    // { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" }
   ];
 
@@ -187,18 +187,18 @@ const Resume = (props) => {
       ))}
     </div>,
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectDetails.map((projectDetails, index) => (
-        <ResumeHeading
-          key={index}
-          heading={projectDetails.title}
-          subHeading={projectDetails.subHeading}
-          description={projectDetails.description}
-          fromDate={projectDetails.fromDate}
-          toDate={projectDetails.toDate}
-        />
-      ))}
-    </div>,
+    // <div className="resume-screen-container" key="projects">
+    //   {projectDetails.map((projectDetails, index) => (
+    //     <ResumeHeading
+    //       key={index}
+    //       heading={projectDetails.title}
+    //       subHeading={projectDetails.subHeading}
+    //       description={projectDetails.description}
+    //       fromDate={projectDetails.fromDate}
+    //       toDate={projectDetails.toDate}
+    //     />
+    //   ))}
+    // </div>,
 
     /* Interests */
     <div
