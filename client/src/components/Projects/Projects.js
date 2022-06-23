@@ -34,7 +34,7 @@ function Projects(props) {
 
     const projectItems = [
         {
-            title: "Electionic Lock",
+            title: "Electronic Lock",
             subtitle: ["FPGA DE-10 Board", "Verilog"],
             description: "Electronic lock prototype for my Digital Logic Systems course project",
             imgSrc: FPGA
