@@ -1,18 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
 
+import emailjs from '@emailjs/browser';
 import Footer from "../../components/Footer/footer"
 import imgBack from "../../assets/contact/mailz.jpeg";
-import load1 from "../../assets/contact/load2.gif";
+// import load1 from "../../assets/contact/load2.gif";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/animations";
 import HeaderContact from "./HeaderContact/HeaderContact"
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import "./contactMe.css";
 
 const ContactMe = (props) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        // console.log("YAY")
+        emailjs.sendForm('service_gr36wa5', 'template_zko604y', form.current, 'bt8wsKoy6KYlAnsCW')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     let fadeInScreenHandler = (screen) => {
         if (screen.fadeInScreen !== props.id) return; //If not in view dont show
         Animations.animations.fadeInScreen(props.id); //Else show data
@@ -105,26 +120,28 @@ const ContactMe = (props) => {
                     <a href="https://steamcommunity.com/profiles/76561198200509718/">
                         <i className="fa fa-steam-square"></i>
                     </a>
-
                 </div>
                 <div className="back-form">
                     <div className="img-back">
-                        <h3>Send your inquires to my inbox using the following details!</h3>
-                        <div className="details-container">
-                            <ul>
-                                <li>Email:
-                                    <span className="data">poulreyes74@yahoo.com</span>
-                                </li>
-                                <li>Mobile:
-                                    <span className="data">(431) 337-7373</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <h4>Send Your Email Here!</h4>
+                        <img src={imgBack} alt="Not found" />
                     </div>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Subject</label>
+                        <input type="text" name="user_subject" />
+                        <label>Message</label>
+                        <textarea name="message" />
+                        <Button className="btn-contact" type="submit" value="Send">Submit</Button>
+                    </form>
                 </div>
             </div>
             <Footer />
         </div>
+
     );
 };
 

@@ -1,5 +1,5 @@
 .main-container {
-  min-height: 60vh;
+  min-height: 94vh;
   margin: 200px 0 -40px 0;
   background-color: #fadfa4;
 }
@@ -71,6 +71,45 @@
   box-shadow: 0 0px 20px -2px #1f2235;
   border-radius: 12px;
 }
+form p {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ff5823;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins Bold";
+}
+
+form label {
+  margin-bottom: 5px;
+  color: #111;
+  letter-spacing: 0.2rem;
+}
+
+form input,
+textarea {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+textarea:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+form input:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+.btn-contact {
+  width: auto;
+}
 .col i {
   font-size: 28px;
   padding: 0 0 0 10px;
@@ -94,6 +133,9 @@
     flex: 1;
     align-self: center;
     margin-right: 20px;
+  }
+  form {
+    flex: 0.9;
   }
 }
 @media screen and (max-width: 414px) {
