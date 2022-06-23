@@ -79,6 +79,7 @@ export default function Header() {
           className="header-hamburger"
           onClick={() =>
             setShowHeaderOptions(!showHeaderOptions)
+
           }
         >
           <FontAwesomeIcon
@@ -95,6 +96,7 @@ export default function Header() {
               ? "header-options show-hamburger-options"
               : "header-options"
           }
+
         >
           {getHeaderOptions()}
         </div>
