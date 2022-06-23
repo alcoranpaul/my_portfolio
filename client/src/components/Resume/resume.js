@@ -71,32 +71,6 @@ const Resume = (props) => {
     { skill: "C++", ratingPercentage: 30 },
   ];
 
-  const projectDetails = [
-    {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2022", toDate: "2022" },
-      description:
-        "A Personal Portfolio website to showcase my details, experience, and projects.",
-      subHeading:
-        "Technologies used: React Js, JavaScript, React-Bootstrap",
-    },
-    //Add more projects here...
-    {
-      title: "Electronic Lock",
-      duration: { fromDate: "2020", toDate: "2020" },
-      description:
-        "An digital logic systems course project",
-      subHeading:
-        "Technologies used: FPGA DE-10 board, Verilog",
-    },
-    {
-      title: "Pick and Drop mechanism",
-      duration: { fromDate: "2020", toDate: "2020" },
-      description: "An engineering course project",
-      subHeading:
-        "Technologies used: Arduino board, MS Excel",
-    },
-  ];
 
   const resumeDetails = [
     <div
@@ -139,27 +113,27 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            To create a simple UX design along with a simple
+            To create a simple UX form design along with a simple
             and secure back end
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Trained in JavaScript/JavaScript Vue to create
-            a front-end design and Grails for back-end
-            design of an application that accepts a user’s
-            data input and stores it in grails server
+            - Designed a responsive user form
+            application using JavaScript, Vue, and
+            Grails
           </span>
           <br />
           <span className="resume-description-text">
-            - Manages design progress and programming
-            changes using mermaid-js and MS Excel
+            - Optimized/modified an existing
+            application that transfers inputted data
+            between two excel files using VBA
           </span>
           <br />
           <span className="resume-description-text">
-            - Self-trained in VBA for analysing,
-            implementing, and optimizing a native
-            application in MS access
+            - Handled and directed sensitive company
+            data using MS Word, Excel, and Access on
+            a daily basis
           </span>
           <br />
         </div>
@@ -186,19 +160,7 @@ const Resume = (props) => {
         </div>
       ))}
     </div>,
-    /* PROJECTS */
-    // <div className="resume-screen-container" key="projects">
-    //   {projectDetails.map((projectDetails, index) => (
-    //     <ResumeHeading
-    //       key={index}
-    //       heading={projectDetails.title}
-    //       subHeading={projectDetails.subHeading}
-    //       description={projectDetails.description}
-    //       fromDate={projectDetails.fromDate}
-    //       toDate={projectDetails.toDate}
-    //     />
-    //   ))}
-    // </div>,
+
 
     /* Interests */
     <div
